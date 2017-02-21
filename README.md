@@ -1,22 +1,10 @@
+A basic twitter bot I built for my dog who had a cone on after surgery! 
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+You will need to add a config.js file with your own API keys to get it to run. 
 
+Check out Bristol in her cone: https://twitter.com/SadConeBearBot
 
-Welcome to your Node.js project on Cloud9 IDE!
+I actually followed a tutorial to build this, which was insanely simple. Basically plug in API keys and you're half done. I then made some tiny customizations and wrote a few lines of code to get it to post pics, and that was it. 
 
-This chat example showcases how to use `socket.io` with a static `express` server.
-
-## Running the server
-
-1) Open `server.js` and start the app by clicking on the "Run" button in the top menu.
-
-2) Alternatively you can launch the app from the Terminal:
-
-    $ node server.js
-
-Once the server is running, open the project in the shape of 'https://projectname-username.c9users.io/'. As you enter your name, watch the Users list (on the left) update. Once you press Enter or Send, the message is shared with all connected clients.
+Tutorial:
+http://venturebeat.com/2017/02/02/how-to-build-your-own-twitter-bot-in-less-than-30-minutes/
