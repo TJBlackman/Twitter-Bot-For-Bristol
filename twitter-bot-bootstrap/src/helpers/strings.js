@@ -1,4 +1,3 @@
-
 module.exports = {
     queryString: [
         'Bristol Bear',
@@ -17,7 +16,8 @@ module.exports = {
     blockedStrings: [
         'porn',
         'sex',
-        'xxx'
+        'xxx',
+        'spam'
     ],
     resultType: [
         'mixed',
@@ -25,14 +25,13 @@ module.exports = {
         'popular'
     ],
     responseString: [
-        'Hi @screenName, thanks for the follow! Woof woof!',
-        '@screenName, thanks for following! Woof!',
-        'Hey @screenName, thanks for the follow! Woof woof!',
-        'Thanks for following, @screenName! Woof!',
-        'Hey @screenName, thanks for following! Woof!',
-        'Awesome @screenName, thanks for following! Woof woof!',
-        'Thanks for the follow, @screenName! Woof!',
-        'Thanks for following, @screenName! Woof woof!'
+        'Hi @[[screenName]], thanks for the follow! Woof woof!',
+        '@[[screenName]], thanks for following! Woof!',
+        'Hey @[[screenName]], thanks for the follow! Woof woof!',
+        'Thanks for following, @[[screenName]]! Woof!',
+        'Awesome @[[screenName]], thanks for following! Woof woof!',
+        'Thanks for the follow, @[[screenName]]! Woof!',
+        'Thanks for following, @[[screenName]]! Woof woof!'
     ],
     originalTweets:[
         'Why do they call it the cone of shame?',
@@ -40,14 +39,16 @@ module.exports = {
         'The cone makes catching treats pretty easy!',
         'Ok.. you\'ve had your fun. Take the cone off now. Please.',
         'Cone? What Cone?',
-        'this cone makes it hard to lick my crotch...',
+        'This cone makes it hard to lick my crotch...',
         'Cones are for suckers!',
         'Laugh it up human... Those new shoes you bought look awfully fun to chew on.',
         'Spent 20 minutes stuck in the closet... #ConeLife',
-        'Good news...since my operation my hearing has improved'
+        'Good news...since my operation my hearing has improved',
+		'Cone, cone, go away. Don\'t come again any other day. #ConeSongs',
+		'Cone dogs need love too! Don\'t Negelect The Cone!'
     ],
     imagesTweets:[
-        'SadConeBristolBot', // this is a bunk string will never be used
+        '', // this is a bunk string will never be used
         'I\'m a sleepy cone bear!',
         'Not even the sun can make me happy today.',
         'The ground smells are strong inside the cone!',
@@ -60,8 +61,3 @@ module.exports = {
         'Why did you wake me up?'
     ]
 };
-
-// 6am: tweet
-// 10am: retweet
-// 2pm: post image
-// 6am: like
